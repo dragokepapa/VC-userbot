@@ -28,12 +28,12 @@ if os.path.exists("Internal"):
    load_dotenv("Internal")
 
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
-MONGO_DB_URL = getenv("MONGO_DB_URL", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
+API_ID = int(getenv("API_ID", "22657083"))
+API_HASH = getenv("API_HASH", "d6186691704bd901bdab275ceaab88f3")
+BOT_TOKEN = getenv("BOT_TOKEN", "8796509731:AAHirr2b4Cl-Enl7BGb8EQYrGHFrRARH1E4")
+STRING_SESSION = getenv("STRING_SESSION", "BQFZuDsAQiDzIdsFveuaQj_N_6XweA-EBO1qmu0yZ4grm62lnKkkm3Odq7Z2KhdMouh9-SoUpsjd-TM14DxGMD7_R5X8xV1zeU3eqNZ4MWJTej27g8B1hU5KeBVZBwQ5PFnYbMc0bjoYtq4mwEsE_HkMAq-mHoGmp6xT-U-yutRgJYCCg8aiWULRWd0H_5WGBC9bCsEL7BE22Eymvy1CC2f918TIuksPkowSRC3LnMGELm0G6k7GVG_APaWPaINxL-1VJNOV4U2Lv_nIvJt-zMXLH1_U5EeT1IQfZ6POE8qJ9gX8i7aWhDiYBW2saK67DlGp2-j5iwcWkglXBy1GmGxRRVqNPAAAAAILvcmvAA")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://nexacoders2_db_user:dxYh7QOdHvH6OVdd@cluster0.f4qxcbk.mongodb.net/?appName=Cluster0")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ))
 
 
 # OPTIONAL VARIABLES
