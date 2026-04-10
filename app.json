@@ -1,40 +1,17 @@
 {
   "name": "VC-Userbot",
-  "description": "VC-Userbot is an advanced & powerful multi-featured Telegram userbot.",
+  "description": "VC-Userbot Telegram Userbot",
   "logo": "https://telegra.ph/file/90128affe4ed7b70b10ab.jpg",
-  "keywords": [
-    "VC-userbot",
-    "telegram-userbot",
-    "telegram-music-bot",
-    "telegram-video-bot"
-  ],
+  "keywords": ["telegram", "userbot", "vc"],
   "repository": "https://github.com/dragokepapa/VC-userbot",
   "stack": "heroku-22",
   "env": {
-    "API_ID": {
-      "description": "Enter your api id here.",
-      "required": true
-    },
-    "API_HASH": {
-      "description": "Enter your api hash here.",
-      "required": true
-    },
-    "BOT_TOKEN": {
-      "description": "Enter your bot token here",
-      "required": true
-    },
-    "STRING_SESSION": {
-      "description": "Enter your pyrogram v2 string session here.",
-      "required": true
-    },
-    "MONGO_DB_URL": {
-      "description": "Enter your mongodb url here.",
-      "required": true
-    },
-    "LOG_GROUP_ID": {
-      "description": "Enter your private log group id here.",
-      "required": true
-    }
+    "API_ID": { "required": true },
+    "API_HASH": { "required": true },
+    "BOT_TOKEN": { "required": true },
+    "STRING_SESSION": { "required": true },
+    "MONGO_DB_URL": { "required": true },
+    "LOG_GROUP_ID": { "required": true }
   },
   "formation": {
     "worker": {
@@ -43,11 +20,7 @@
     }
   },
   "buildpacks": [
-    {
-      "url": "heroku/python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    }
+    { "url": "heroku/python" },
+    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" }
   ]
 }
