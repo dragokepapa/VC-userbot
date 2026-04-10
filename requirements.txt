@@ -1,7 +1,7 @@
 motor==3.3.2
 pyrogram==2.0.106
 python-dotenv==1.0.1
-pytgcalls==3.0.0.dev24
+py-tgcalls==1.1.7
 tgcrypto==1.2.5
 youtube-search-python
 yt-dlp==2023.12.30
